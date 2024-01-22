@@ -1,3 +1,16 @@
+//1 
+const navclass = document.querySelector(".navclass");
+const burgerclass = document.querySelector(".burgerclass");
+
+navclass.addEventListener("click", function()  {
+    navclass.classList.toggle("active");
+    burgerclass.classList.toggle("active");
+  });
+
+
+
+
+//2 
 const inputElement = document.getElementById("input-id");
 const btnElement = document.getElementById("btn-id");
 const ulElement = document.getElementById("ul-id");
